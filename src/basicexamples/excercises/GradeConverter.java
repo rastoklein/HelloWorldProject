@@ -33,7 +33,7 @@ public class GradeConverter {
 
             System.out.println();
 
-           vystupnaZnamka = stripAccents(vystupnaZnamka); //metoda stripAccents nam zbavi diakritiku
+           vystupnaZnamka = stripAccents(vystupnaZnamka); //metoda stripAccents nam zbavi diakritiku, priradenie metody do premennej
 
             System.out.print("napísal si známku: " );
 
