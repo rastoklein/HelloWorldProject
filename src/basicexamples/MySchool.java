@@ -1,32 +1,42 @@
-package basicexample.revision;
+package basicexample;
 
 import java.util.Scanner;
 
 public class MySchool {
+    //Metoda SCANNER
+    public static double getDatas (double a) {
+        Scanner scn = new Scanner(System.in);
+        System.out.println("Zadaj hodnotu: ");
+        a = scn.nextDouble();
+        return a;
+    }
 
     public static void main(String[] args) {
 
-        //POLIA - ARRAY
+        /*//POLIA - ARRAY
         int[] values = {8, 10, 12, 99};   //pozicie, zacinaju od 0-tej a konci poctom prvkov minus 1
         System.out.println(values[3]);    //vypise v poradi 4-tu pozicii, t.j. cislo 99
         for (int i = 0; i < values.length; i++) {
             System.out.print(values[i] + " ");   //vypiseme obsah celeho pola
         }
-        System.out.println("\n..................................");
+        System.out.println("\n..................................");*/
 
+        /*//SCANNER - vstup cez Metodu
+        double a = 1;
+        getDatas(a);*/
 
-        //SCANNER - vstup
+        /*//SCANNER - cely manualny vstup
         System.out.print("SCANNER tu napis: ");
         Scanner input = new Scanner(System.in);
         String premenna = input.nextLine();
         System.out.println(premenna);
-       /* double premenna2 = input.nextDouble();
+       *//* double premenna2 = input.nextDouble();
         System.out.printf("%.2f", premenna2);  //zaokruhlenie cisel na presne zadefinovane desatinne miesta*/
 
         System.out.println("..................................");
 
 
-        //SCANNER - s podmienkami vystupnymi cez IF
+       /* //SCANNER - s podmienkami vystupnymi cez IF
         Scanner scn = new Scanner(System.in);
         System.out.println("SCANNER tu napis A: ");
         double premennaA = scn.nextDouble();
@@ -49,7 +59,7 @@ public class MySchool {
         } else if (premennaB < premennaA) {
             System.out.println("mensie cislo je " + premennaB);
         } else System.out.println("zle");
-
+*/
         System.out.println("....................");
 
 
