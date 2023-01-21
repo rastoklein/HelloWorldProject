@@ -78,6 +78,7 @@ public class RectangleandMethods {
             assertEquals(13, getPerimeter(2.5, 4));
         }
 
+
         @Test
         public void testGetArea() {
             assertEquals(6, getArea(2, 3));
