@@ -42,6 +42,20 @@ public class ArrayExamples {
         System.out.println("najvacsie cislo je: " + array[array.length - 1]);
         System.out.println("najmensie cislo je: " + array[0]);
 
-
+        System.out.println();
+        String cars[] = {"Honda", "Audi", "Hyundai", "Opel"};
+        for (int i = 0; i < cars.length; i++) {
+            System.out.println(cars[i]);
+        }
+        System.out.println("\ndalsi sposob vypisovania z pola: ");
+        for (String car:cars){   //naplname premennu car kazdym prvkom pola
+            System.out.println(car);
     }
+        //dvojrozmerne POLE:
+        int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
+        System.out.println(myNumbers[1][2]); // Outputs 7, prva hodnota odkazuje na stlpec a druha na riadok
+
+
+
+}
 }

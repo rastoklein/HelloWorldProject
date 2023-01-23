@@ -13,13 +13,11 @@ public class MyTests {
 
     }
 
-
     public static void main(String[] args) {
 
         System.out.println("Moje TESTOVACIE prostredie:\n");
 
       double a = 1;
-      getDatas(a);
-
+      System.out.println(getDatas(a));
     }
 }

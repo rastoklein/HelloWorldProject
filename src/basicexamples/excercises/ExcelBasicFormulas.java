@@ -45,6 +45,7 @@ public class ExcelBasicFormulas {
     public static double getCount(double[] array) {
         double count = array.length;
         return count;
+        //alternativny Zapis predoslych dvoch riadkov: return.array.length;
     }
 
     //METODA Double
@@ -90,7 +91,7 @@ public class ExcelBasicFormulas {
 
     }
     @Test
-    public void testGetSum(){
+    public void testGetSum(){   //bez slovicka static
         double[] values = {10, 20, 30, 40};
         assertEquals(100, getSum(values));
     }
