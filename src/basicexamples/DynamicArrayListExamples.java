@@ -23,21 +23,22 @@ public class DynamicArrayListExamples {
 
         System.out.println(poleKnih.get(1));  //vypiseme knihu v poradi druhu, s indexom 1
         System.out.println("....................");
+        System.out.println(poleKnih.get(poleKnih.size()-1));  //vypisanie posledneho prvku v dynamickom poli, lastIndex
 
-        //prechadzame vsetkymi prvkami dynamickeho pola poleKnih
+        //Vypis vsetkych prvkov (indexov) dynamickeho pola poleKnih
         for (int i = 0; i < poleKnih.size(); i++) {
             System.out.println(poleKnih.get(i) + ".");  //pridal som bodku
         }
         System.out.println("....................");
 
-        //prechadzame vsetkymi prvkami dynamickeho pola poleKnih, SjPOSOB c.2
+        //Vypis vsetkymi prvkami dynamickeho pola poleKnih, SPOSOB resp. ALTERNATIVA c.2
         for (String vystup:poleKnih){
             System.out.println(vystup);
         }
 
         System.out.println("....................");
 
-        // NOVY PRIKLAD ...Cisla noh
+        // NOVY PRIKLAD ...POLE: Cisla noh
         ArrayList<Integer> poleCiselnoh = new ArrayList<Integer>();
         Integer cisloNohy1 = 40;
         Integer cisloNohy2 = 41;
@@ -47,21 +48,17 @@ public class DynamicArrayListExamples {
         poleCiselnoh.add(cisloNohy2);
         poleCiselnoh.add(cisloNohy3);
 
-        //vypiseme vsetky cisla
+        //vypiseme vsetky cisla Alternativa c.1:
         for (int i = 0; i < poleCiselnoh.size() ; i++) {
             System.out.println("Zadane cislo nohy: " + poleCiselnoh.get(i));
         }
-        //vypiseme vsetky cisla Alternativa 2:
+        //vypiseme vsetky cisla Alternativa c. 2:
         for (Integer vystup:poleCiselnoh){
             System.out.println("Zadane cislo nohy, sposob c.2: " + vystup);
         }
 
 
-        /*Nova Uloha:
-        Zadajte názvy kníh cez konzolu, kým používateľ nenapíše slovo koniec. Následne zoznam kníh vypíšeme.
-        Používanie aplikácie: Použivateľ spustí program s názvom ZadavanieKnih (InputBooks), ktorý používateľa
-        vyzve na zadanie názvov kníh. Zároveň mu vypíše inštrukciu, že po zadaní slova koniec program zadavánie
-        ukončí a následne vypíše zoznamu všetkých zadaných kníh.*/
+
 
 
 

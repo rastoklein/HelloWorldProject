@@ -19,5 +19,9 @@ public class MyTests {
 
       double a = 1;
       System.out.println(getDatas(a));
+
+      String kniha = "Ja robot";
+        System.out.println(kniha.toLowerCase());
+
     }
 }
