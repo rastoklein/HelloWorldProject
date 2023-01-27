@@ -2,7 +2,7 @@ package basicexample.excercises.model;
 
 public class Kniha {
     //Objektove programovanie
-    //fields, cize premenne triedy
+    //fields, Zadavanie premennych
     String obsah;
     String zaner;
     String nazov;

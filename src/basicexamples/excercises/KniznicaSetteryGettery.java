@@ -2,6 +2,8 @@ package basicexample.excercises;
 
 import basicexample.excercises.model.Kniha;
 import basicexample.excercises.model.KnihaSpravne;
+//nemusime Importovat kazdu triedu zvlast, mozme cez * vyvolat vsetky triedy z Packageu
+// napr. import basicexample.excercises.model.*;
 
 import java.util.ArrayList;
 
@@ -33,6 +35,7 @@ public class KniznicaSetteryGettery {
         System.out.println("\nnazov knihy: " + kniha2.nazov);
         System.out.println("autor: " + kniha2.autor);*/
 
+        //vytvorenie noveho Objektu z Triedy KnihaSpravne
         KnihaSpravne knihaSpravne1 = new KnihaSpravne();
         knihaSpravne1.setNazov("Motyl");
         knihaSpravne1.setAutor("Anna Schonn");
